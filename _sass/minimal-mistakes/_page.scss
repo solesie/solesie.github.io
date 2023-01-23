@@ -118,6 +118,7 @@ body {
 
   /* paragraph indents */
   p {
+    line-height: 1.7; // 가독성을 위해 줄 간격 추가
     margin: 0 0 $indent-var;
 
     /* sibling indentation*/
