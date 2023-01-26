@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "solesie"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "쓰레기는 쓰레기통에, 쓰레기 글은 여기에"
+  bio              : "쓰레기는 쓰레기통에, <br> 쓰레기 글은 여기에"
   location         : "South Korea"
   email            :
   links:
@@ -208,6 +208,9 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
+  syntax_highlighter_opts:
+        block:
+            line_numbers: true
 
 
 # Sass/SCSS

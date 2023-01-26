@@ -71,6 +71,7 @@ body {
 .page__title {
   margin-top: 0;
   line-height: 1;
+  font-size: 1.8em; // 타이틀 폰트 사이즈 조절
 
   a {
     color: $text-color;
